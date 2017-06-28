@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(../images/weather.png);
+  background-repeat: repeat;
+}
+
+h1 {
+  text-align: center;
+  color: red;
+}
+
+#wrapper {
+  height: 350px;
+  width: 500px;
+  border: 1px solid #f535;
+  margin: 200px auto 0 auto;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#timezone {
+  text-align: center;
+  font-size: 30px;
+  font-style: bold;
+  font-family: serif;
+}
+
+.icons{
+  display: none;
+}
+
+#currentDate {
+  text-align: center;
+  font-size: 20px;
+  font-style: bold;
+  font-family: serif;
+  }
+
+#tempr, #pressure {
+  text-align: center;
+  font-size: 28px;
+  font-style: bold;
+  font-family: serif;
+  display: inline-block;
+}
+
+#weatherIcons {
+  width: 70px;
+  height: 70px;
+  margin: 20px auto;
+}
+
+#buttonsDay {
+  margin-top: 15px;
+}
+
+#dataWeather {
+  text-align: center;
+}
